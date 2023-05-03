@@ -14,7 +14,6 @@
                 android:textSize="14sp"
                 android:textColor="@color/black"
                 app:queryHint="Search Location"
-                android:layout_marginLeft="-20dp"
                 />
 ```
 
