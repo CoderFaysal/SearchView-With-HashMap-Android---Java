@@ -1,6 +1,24 @@
 # SearchView With HashMap Android - Java
 
 
+### XML View
+
+```
+<androidx.appcompat.widget.SearchView
+                android:id="@+id/searchView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:queryBackground="@android:color/transparent"
+                app:iconifiedByDefault="false"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                app:queryHint="Search Location"
+                android:layout_marginLeft="-20dp"
+                />
+```
+
+
 ### Step 1. Add This Line In Your Adapter
 
 ```
