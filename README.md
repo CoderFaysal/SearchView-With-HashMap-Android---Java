@@ -1,7 +1,7 @@
 # SearchView With HashMap Android - Java
 
 
-### XML View
+### Step 1. XML View
 
 ```
 <androidx.appcompat.widget.SearchView
@@ -19,7 +19,7 @@
 ```
 
 
-### Step 1. Add This Line In Your Adapter
+### Step 2. Add This Line In Your Adapter
 
 ```
  public void setFilteredList(ArrayList<HashMap<String, String>> filteredList) {  
@@ -29,7 +29,7 @@
 ```
 
 
-### Step 2. Add this method in onQueryTextChange in SearchView
+### Step 3. Add this method in onQueryTextChange in SearchView
 
 ```
 private void fileList(String newText) {  
